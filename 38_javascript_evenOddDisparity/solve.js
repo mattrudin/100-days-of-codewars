@@ -1,0 +1,2 @@
+// origin:https://www.codewars.com/kata/even-odd-disparity/train/javascript
+const solve = array => array.filter(element => element % 2 === 0).length - array.filter(element => element % 2 === 1).length;
