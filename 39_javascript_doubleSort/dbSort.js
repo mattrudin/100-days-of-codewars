@@ -1,0 +1,2 @@
+// origin: https://www.codewars.com/kata/double-sort/train/javascript
+const dbSort = array => [...array.filter(item => typeof(item) === "number").sort((a, b) => a - b), ...array.filter(item => typeof(item) === "string").sort()];
