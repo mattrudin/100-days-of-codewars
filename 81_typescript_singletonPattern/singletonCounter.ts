@@ -25,3 +25,7 @@ export class SingletonCounterAlt {
 	}
 	inc = () => ++this._counter;
 }
+
+// Further information
+// https://basarat.gitbooks.io/typescript/docs/tips/singleton.html
+// https://fullstack-developer.academy/singleton-pattern-in-typescript/
